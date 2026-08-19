@@ -13,3 +13,16 @@ spring:
     username: root
     password: Nitin@123
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql: true
+
+
+          jwt:
+            secret: fgdseerdnanudefsfssfs
+            expiration: 86400000
