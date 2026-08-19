@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /fileMesh
+
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Kolkata
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/fileMesh?createDatabaseIfNotExist=true
+    username: root
+    password: Nitin@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
